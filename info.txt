@@ -1,0 +1,46 @@
+/ // os -operatignsystem
+// url — linklarni parslash uchun.
+// events- hodisa yaratib beradi nimanidir eshtb turadi
+
+// extname-shu yergacha bolgan hududnii aniqlab beradi
+// dirname-papkasigacha bolgan qismni ajratib beradi
+// normalize- normallashtirib beradi
+
+// http-hyper text transform protocol   / protocol bu tashuvchilar
+
+IP => internet pratakol degaani
+TCP => transmission control pratakol
+
+IP ni ustiga TCP va UDP qurilgan , http ham .
+
+
+
+internet vazifasi br qurilmadagi narsani ikkinchi qqurilmaga yetkazib berish bu qanday ishlaydi quyidagi packageda korsatamiz.
+
+
+package {
+      from:"192.168.70.10, -api manzili turgan joyi
+      to: "......, - xabar  yuborilgan odamni ip manzili 
+      body:"jjifbvfhvbfhvbfvbefkjdjcnefkvb
+}
+ 
+
+ request -so'rov, frontendan beckendga kegan so'rov
+
+ response - javon, backenddan frontendga kelgan javob
+
+
+ PUT- malumotni yangilash kerak bolsa 
+ GET- malumot olish
+ POST - backenda malumot  yozishga so`rov tashlangan bolsa
+ DELETE- malumotni ochirishga sorov tashlansa 
+ PATCH- qisman ozgartirish
+
+
+ res.end() -  frontendga javob qaytarish
+
+ JSON- malumot almashish formati
+
+
+ on - bu hodisalarni eshitadi
+ chunk- bu bo`lak
